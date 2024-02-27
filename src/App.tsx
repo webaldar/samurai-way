@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Header} from './Header';
 
 function App() {
     return (
@@ -7,13 +8,6 @@ function App() {
             <Header/>
         </div>
     );
-}
-
-export const Header = () => {
-    return (
-        <div>
-            <h1>My header</h1>
-        </div>)
 }
 
 export default App;
