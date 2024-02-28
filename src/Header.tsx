@@ -4,8 +4,7 @@ export const Header = () => {
     return (
         <div className="app-wrapper">
             <header className="header">
-                <img
-                    src="https://avatars.mds.yandex.net/i?id=9e935d9a791083dc250d6a14801ab3aa91a94759-6945470-images-thumbs&n=13"/>
+                <img src="https://avatars.mds.yandex.net/i?id=9e935d9a791083dc250d6a14801ab3aa91a94759-6945470-images-thumbs&n=13"/>
             </header>
             <nav className="sidebar">
                 <ul>
@@ -18,10 +17,10 @@ export const Header = () => {
             </nav>
             <main className="content">
                 <div>
-                    <img src="https://w.forfun.com/fetch/15/156ad05906b325f230f0291d5aeaa1fa.jpeg"/>
+                    <img className="content-wallpaper" src="https://w.forfun.com/fetch/15/156ad05906b325f230f0291d5aeaa1fa.jpeg"/>
                 </div>
                 <div>
-                    <img src="https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg"/>
+                    <img className='avatar' src="https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg"/>
                     <h2>post title</h2>
                     <p>description</p>
                 </div>
