@@ -6,7 +6,7 @@ function App() {
         <div className="app-wrapper">
             <header>
                 <img alt="Доготип"
-                    src="https://e7.pngegg.com/pngimages/646/246/png-clipart-black-white-bushido-video-games-blood-bowl-steam-stealth-game-samurai-armor.png">
+                    src="https://e7.pngegg.com/pngimages/646/246/png-clipart-black-white-bushido-video-games-blood-bowl-steam-stealth-game-samurai-armor.png"/>
             </header>
             <nav>
                 <div>Profile</div>
