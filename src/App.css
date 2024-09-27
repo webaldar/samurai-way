@@ -1,6 +1,6 @@
 .app-wrapper {
   display: grid;
-
+  width: 1200px;
   grid-template-areas:
         "h h"
         "n c";
@@ -12,17 +12,20 @@
 
 .header {
   grid-area: h;
+  background-color: #68a8e8;
 }
 .header img {
-  width: 20px;
+  width: 30px;
 }
 
 .sidebar {
   grid-area: n;
+  background-color: #5baf18;
 }
 
 .content {
   grid-area: c;
+  background-color: #aaab59;
 }
 .content-wallpaper {
   width: 900px;
